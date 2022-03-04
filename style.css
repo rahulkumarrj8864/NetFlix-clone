@@ -80,16 +80,20 @@
   border-radius: 13px;
   margin-bottom: 10px;
   border:1px solid #212529;
+  transition: all .2s ease-in-out;
 }
 ::-webkit-scrollbar {
   width: 5px;
 }
- 
+
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px black;
 }
- 
+
 ::-webkit-scrollbar-thumb {
   background-color: black;
   /* outline: 1px solid slategrey; */
+}
+.items .cols img:hover {
+  transform: scale(1.1);
 }
